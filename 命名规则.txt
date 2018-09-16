@@ -1,0 +1,22 @@
+https://www.cnblogs.com/shenhuiran/p/8244431.html
+1.文件命名：
+	java文件主要采用大驼峰命名法；
+	资源文件采用下划线命名法
+2.属性命名：
+	类方法属性采用小驼峰命名法，类属性m开头；
+	常量全大写
+3.具体场景：
+	a.四大组件分别以Activity，Service，Broadcast，Provider后缀
+	b.数据库类有bd关键字，一般以DBHelper结尾
+	c.工具类或者公共方法以Utils结尾
+	d.接口多以able或ible结尾
+	e.方法命名
+		初始化相关方法，使用init为前缀标识，如：初始化布局initView()；
+		boolean型使用is或check为前缀标识, 如：checkValue()、isValidate();
+		返回某个值的方法，使用get为前缀标识，如：getName();
+		数据进行处理相关，尽量使用process为前缀标识，如：processUpdate();
+		保存数据相关，使用save为前缀标识，如：saveData();
+		对数据重置的，使用reset前缀标识，如：resetData();
+		清除数据相关，使用clear前缀标识，如：clearData();
+		移除某些项目，使用remove前缀标识，如:removeItem();
+		绘制数据或效果相关的，使用draw前缀标识，如：drawCircle();
