@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="CommonPrimaryHeaderStyle">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">@dimen/common_primary_header_t1</item>
+    </style>
+
+    <style name="CommonSecondaryHeaderStyle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">@dimen/common_secondary_header_t2</item>
+    </style>
+
+    <style name="NormalIconSize">
+        <item name="android:layout_width">@dimen/common_header_icon_size</item>
+        <item name="android:layout_height">@dimen/common_header_icon_size</item>
+    </style>
+
+    <style name="NormalIconSize.HeaderIcon" parent="NormalIconSize">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+</resources>

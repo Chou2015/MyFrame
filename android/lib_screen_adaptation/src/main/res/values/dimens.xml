@@ -1,0 +1,17 @@
+<resources>
+
+    <!--header size start -->
+    <dimen name="common_header_height">48dp</dimen>
+    <dimen name="common_header_icon_size">30dp</dimen>
+    <dimen name="common_page_padding">16dp</dimen>
+    <!--header size end -->
+
+
+    <!--font size start -->
+    <dimen name="common_primary_header_t1">28dp</dimen>
+    <dimen name="common_secondary_header_t2">20dp</dimen>
+    <dimen name="common_default_content_t3">18dp</dimen>
+    <dimen name="common_secondary_text_t4">15dp</dimen>
+    <dimen name="common_small_text_t5">13dp</dimen>
+    <!--font size end -->
+</resources>
